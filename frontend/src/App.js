@@ -1,23 +1,37 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import HomeScreen from './Screens/HomeScreen'
-import ProductScreen from './Screens/ProductScreen'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HomeScreen from './Screens/HomeScreen';
+import ProductScreen from './Screens/ProductScreen';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
+import { LinkContainer } from 'react-router-bootstrap';
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App d-flex flex-column site-container">
         <header>
-          <a href="/">EShop</a>
+          <Navbar bg="dark" variant="dark">
+            <Container>
+              <LinkContainer to="/">
+                <Navbar.Brand>EShop</Navbar.Brand>
+              </LinkContainer>
+            </Container>
+          </Navbar>
         </header>
         <main>
-          <Routes>
-            <Route path="/product/:slug" element={<ProductScreen />} />
-            <Route path="/" element={<HomeScreen />} />
-          </Routes>
+          <Container>
+            <Routes>
+              <Route path="/product/:slug" element={<ProductScreen />} />
+              <Route path="/" element={<HomeScreen />} />
+            </Routes>
+          </Container>
         </main>
+        <footer>
+          <div className="text-center">© 2022 EShop. All Rights Reserved.</div>
+        </footer>
       </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
