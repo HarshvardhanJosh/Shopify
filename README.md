@@ -1,1 +1,1 @@
-# ESHOP- Ecommerce MERN Stack Application
+# ShopMERN- Ecommerce MERN Stack Application

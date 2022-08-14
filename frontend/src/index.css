@@ -28,3 +28,15 @@ main {
 .product-info {
   padding: 1rem;
 }
+.rating span {
+  color: #ffc000;
+}
+.btn-primary {
+  background-color: #f0c040 !important;
+  color: #000000 !important;
+}
+.img-large {
+  max-width: 60%;
+}
+@media only screen and (max-width: 600px) {
+}

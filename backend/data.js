@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      name: 'Paris Saint-Germain 2022/23 Match Away',
+      name: 'Paris Saint-Germain 2022/23',
       slug: 'nike-slim-shirt',
       category: 'shirts',
       image: '/images/p1.jpg',
@@ -10,7 +10,7 @@ const data = {
       brand: 'Nike',
       rating: 4.8,
       numReviews: 10,
-      description: 'Men/s Nike Dri-FIT ADV Football Shirt',
+      description: 'Men/s Nike Dri-FIT ADV Football Shirt.',
     },
     {
       name: 'Nike Dri-FIT',
@@ -22,7 +22,7 @@ const data = {
       brand: 'Nike',
       rating: 4.4,
       numReviews: 18,
-      description: 'Men/s Sleeveless Hooded Pullover Training Top',
+      description: 'Men/s Sleeveless Hooded Pullover Training Top.',
     },
     {
       name: 'Giannis',
@@ -34,7 +34,7 @@ const data = {
       brand: 'Nike',
       rating: 4.5,
       numReviews: 11,
-      description: 'Men/s Lightweight Basketball Trousers',
+      description: 'Men/s Lightweight Basketball Trousers.',
     },
     {
       name: 'SL Single Jersey to Pants',
@@ -47,8 +47,8 @@ const data = {
       rating: 4.3,
       numReviews: 10,
       description:
-        'Cotton workout pants that keep you comfortable through your training sessions',
+        'Cotton workout pants that keep you comfortable through your training sessions.',
     },
   ],
-}
-export default data
+};
+export default data;

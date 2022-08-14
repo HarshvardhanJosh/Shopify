@@ -13,13 +13,13 @@ function App() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <LinkContainer to="/">
-                <Navbar.Brand>EShop</Navbar.Brand>
+                <Navbar.Brand>SHOPMERN</Navbar.Brand>
               </LinkContainer>
             </Container>
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-5">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
@@ -27,7 +27,9 @@ function App() {
           </Container>
         </main>
         <footer>
-          <div className="text-center">© 2022 EShop. All Rights Reserved.</div>
+          <div className="text-center">
+            © 2022 SHOPMERN. All Rights Reserved.
+          </div>
         </footer>
       </div>
     </BrowserRouter>
