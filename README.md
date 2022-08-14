@@ -1,1 +1,1 @@
-# ShopMERN- Ecommerce MERN Stack Application
+# Shopify- MERN Stack Ecommerce Application
