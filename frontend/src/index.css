@@ -36,7 +36,7 @@ main {
   color: #000000 !important;
 }
 .img-large {
-  max-width: 60%;
+  max-width: 100%;
 }
 .nav-top {
   background-color: #526ace;
@@ -48,6 +48,9 @@ main {
 }
 .btn:focus {
   box-shadow: none !important;
+}
+.img-thumbnail {
+  height: 80px !important;
 }
 @media only screen and (max-width: 600px) {
 }

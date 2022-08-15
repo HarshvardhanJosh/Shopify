@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Paris Saint-Germain 2022/23',
       slug: 'nike-slim-shirt',
       category: 'shirts',
@@ -13,6 +14,7 @@ const data = {
       description: 'Men/s Nike Dri-FIT ADV Football Shirt.',
     },
     {
+      _id: '2',
       name: 'Nike Dri-FIT',
       slug: 'nike-dri-fit',
       category: 'shirts',
@@ -25,6 +27,7 @@ const data = {
       description: 'Men/s Sleeveless Hooded Pullover Training Top.',
     },
     {
+      _id: '3',
       name: 'Giannis',
       slug: 'nike-slim-pants',
       category: 'pants',
@@ -37,6 +40,7 @@ const data = {
       description: 'Men/s Lightweight Basketball Trousers.',
     },
     {
+      _id: '4',
       name: 'SL Single Jersey to Pants',
       slug: 'addidas-slim-pants',
       category: 'pants',
@@ -50,5 +54,5 @@ const data = {
         'Cotton workout pants that keep you comfortable through your training sessions.',
     },
   ],
-};
-export default data;
+}
+export default data
