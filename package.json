@@ -2,6 +2,9 @@
   "name": "shopify",
   "version": "1.0.0",
   "description": "",
+  "engines":{
+    "node": "v16.16.0"
+  },
   "main": "index.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
