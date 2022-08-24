@@ -31,7 +31,8 @@ main {
 .rating span {
   color: #ffc000;
 }
-.btn-primary {
+.btn-primary,
+.btn-outline-primary {
   background-color: #f0c040 !important;
   color: #000000 !important;
 }
@@ -68,6 +69,44 @@ main {
 .checkout-steps > div.active {
   border-bottom: 0.2rem solid #f08000;
   color: #f08000;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.side-container {
+  transition: 0.4s;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.active-nav {
+  left: 0 !important;
+}
+.side-navbar {
+  left: -300px;
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.side-top {
+  color: #000000;
+  font-size: 21px;
+  margin-left: 5px;
+}
+#root > div > div.active-nav > div > div:nth-child(n) > a {
+  font-size: 16px;
+  font-weight: 550;
+}
+#root > div > header > nav > div > a {
+  margin-left: 10px;
+}
+.remove-btn {
+  margin-left: 5px;
+}
+.text-bold {
+  font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
 }
